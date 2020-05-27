@@ -13,6 +13,8 @@ The project makes use of the MNIST image classification dataset, which consists 
 
 The successfully validated model will be converted to a TPU Keras model.
 
+In addition, I am curious to view intermediate layer outputs, so that is also on the horizon.
+
 #### Data Preparation
 
 We load MNIST into our project notebook via the keras library's native `keras.dataset` package, which downloads the dataset from Amazon Web Service. From this point, we only need to split the data into train/ test sets and reshape the data vectors into matrices for GPU/ TPU backend training.
@@ -24,7 +26,7 @@ The sequential model includes a hidden, convolutional layer with relu activation
 #### Evaluation
 
 
-The odel achieves an accuracy of 99.21\% on the test set, with a loss of 2.60\%.
+The model achieves an accuracy of 99.21\% on the test set, with a loss of 2.60\%. Data trained at a rate of 4.5 seconds per epoch.
 
 # Technologies
 * framework: Google Colaboratory/ Jupyter Notebook
@@ -35,3 +37,7 @@ The odel achieves an accuracy of 99.21\% on the test set, with a loss of 2.60\%.
     * models
     * layers
     * backend
+
+```python
+
+```
