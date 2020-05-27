@@ -1,7 +1,7 @@
 # keras-simple-covnet
 MNIST CNN with Keras, on Cloud (Google Colab) GPU
 
-!["Image of a toasted sandwich cut in half and stacked, showing lettuce, tomatoes, and cheese."](./images/eiliv-sonas-aceron-mAQZ3X_8_l0-unsplash.jpg)*Just a few layers*
+!["Image of a toasted sandwich cut in half and stacked, showing lettuce, tomatoes, and cheese."](./images/eiliv-sonas-aceron-mAQZ3X_8_l0-unsplash.jpg "width=200")*Just a few layers*
 
 This project focuses on building a simple convolutional neural network model with Keras for cloud training.
 
